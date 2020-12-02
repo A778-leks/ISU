@@ -1,0 +1,101 @@
+/* Основные стили для базового макета */
+body {
+    width: 98%;
+    height: 100%;
+    color: #333333;
+    background: #dafff9;
+    font-size: 1em;
+    line-height: 135%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-attachment: fixed;
+
+}
+
+html {
+    width: 100%;
+    overflow: hidden;   
+}
+
+.header {
+    width: 100%;
+    background-color: #fff;
+    background: rgb(170, 224, 245);
+    border-bottom: 2px solid silver;
+    padding: 1%;
+    height: 50px;
+}
+
+.header-nav {
+    float: right;
+    text-decoration: none;
+    margin: 3px;
+    color: rgb(31, 31, 119);
+}
+
+.header-nav:hover {
+    color: firebrick;
+    transition: all.6s ease;
+}
+
+.header-nav:active {
+    color: blue;
+}
+
+footer {
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    padding: 1%;
+    padding-bottom: 2%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    height: 15px;
+    background: rgb(170, 224, 245);
+}
+/* Конец основных стилей */
+
+
+/* Стиль для таблицы */
+   .table {
+    display: table;
+    background-color: #d9edf7;
+    padding: 0;
+    margin-left: 150px;
+    text-align: center;
+    font-style: bold;
+    position: static;
+    margin-top: 30px;
+  }
+
+a {
+    text-decoration: underline;
+}
+  
+  .row {
+    display: table-row;
+    background-color: #f2dede;
+  }
+  
+  .dts {
+      display: table-cell;
+      height: 10px;
+      width: 100px;
+      background-color: #fedcba;
+  }
+  .cell {
+    display: table-cell;
+    background-color: #fbeed5;
+    border-color: #c09853;
+    width: 200px;
+    height: 140px;
+  }
+
+.cmp {
+    display: table-cell;
+    background-color: #fedcba;
+    width: 400px;
+    height: 50px;
+}
+
+/* Потом все переделается, и будет адекватная grid-верстка */
